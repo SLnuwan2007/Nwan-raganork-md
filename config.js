@@ -28,7 +28,7 @@ module.exports = {
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
-    ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
+    ALWAYS_ONLINE:https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Fsouravkl11%2Fraganork-md&branch=main&name=raganork-md&env%5BSESSION%5D=+&env%5BMODE%5D=private&env%5BHANDLERS%5D=.&env%5BBOT_INFO%5D=Raganork%3B%F0%9D%91%86%F0%9D%90%BE%F0%9D%90%BF%C2%B9%C2%B9%3B919074309534%3Bhttps%3A%2F%2Fi.imgur.com%2FP7ziVhr.jpeg%3Bgroup_link&env%5BSUDO%5D=0&env%5BSTICKER_DATA%5D=%F0%9D%91%86%F0%9D%90%BE%F0%9D%90%BF%C2%B9%C2%B9 convertToBool(process.env.ALWAYS_ONLINE) || false,
     MANGLISH_CHATBOT: convertToBool(process.env.MANGLISH_CHATBOT) || false,
     ADMIN_ACCESS: convertToBool(process.env.ADMIN_ACCESS) || false,
     PLATFORM:isHeroku?"Heroku":isRailway?"Railway":isKoyeb?"Koyeb":"Other server",isHeroku,isKoyeb,isVPS,isRailway,
